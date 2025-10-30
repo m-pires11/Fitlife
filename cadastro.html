@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitLife - Cadastro</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="menu">
+      <div class="logo"><a href="index.html">FitLife</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html"><i class="fa-solid fa-house"></i> Início</a></li>
+        <li><a href="treinos.html"><i class="fa-solid fa-dumbbell"></i> Treinos</a></li>
+        <li><a href="cadastro.html"><i class="fa-solid fa-user"></i> Cadastro</a></li>
+      </ul>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- FORMULÁRIO -->
+  <main>
+    <section class="form-cadastro">
+      <h2>Cadastro</h2>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" placeholder="Digite seu nome">
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" placeholder="Digite seu e-mail">
+
+      <label for="telefone">Celular:</label>
+      <input type="tel" id="telefone" placeholder="Digite seu celular">
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" placeholder="Digite sua senha">
+
+      <button class="btn-primary" onclick="cadastrar()">Cadastrar</button>
+
+      <div id="mensagem" class="mensagem-sucesso" style="display:none;">
+        Cadastro realizado com sucesso!
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 FitLife - Desenvolvido por Matheus Pires
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
