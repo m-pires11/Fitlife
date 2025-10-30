@@ -29,11 +29,6 @@ Formulário de cadastro com mensagem de sucesso.
 
 Layout moderno e responsivo, pronto para mobile e desktop.
 
-Autor
-
-Matheus Pires
-© 2025
-
 ## Estrutura do Projeto
 
 ```text
@@ -52,3 +47,7 @@ fitlife/
 │       └── fitlife-banner.jpg  # Imagem de apresentação
 │
 └── README.md           
+
+Autor
+
+Matheus Pires
