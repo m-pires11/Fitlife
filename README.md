@@ -48,6 +48,4 @@ fitlife/
 │
 └── README.md           
 
-## Autor
 
-Matheus Pires
